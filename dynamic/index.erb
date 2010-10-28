@@ -1,0 +1,11 @@
+<% get_post_sumaries.each do |post| %>
+
+  <div class='post'>
+      <h2>
+        <a href='<%= post[:permalink] %>'><%= post[:title] %></a>
+      </h2>
+
+      <p><%= post[:summary] %></p>
+  </div>
+
+<% end %>
