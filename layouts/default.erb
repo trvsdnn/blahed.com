@@ -6,6 +6,7 @@
     <link href='/css/styles.css' rel='stylesheet' type='text/css' />
     <script src='/js/jquery-1.4.2.min.js' type='text/javascript'></script>
     <script src='/js/y.es' type='text/ecmascript'></script>
+    <%= additional_script(@current_path) %>
   </head>
   <body>
     <div id='wrapper'>
@@ -14,7 +15,7 @@
       <div id='main'><%= yield %></div>
     </div>
     <%= refresh %>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-1406322-3']);
@@ -26,6 +27,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    </script>
+    </script> -->
   </body>
 </html>

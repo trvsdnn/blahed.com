@@ -1,12 +1,13 @@
 title: Why Blogging Sucks
 id: 0
+date: 10/29/2010
 
 -------------------------------------META
 
 Why Blogging Sucks
 ------------------
 
-Hi, i'm going to blog now. I have come to realize that the main reason it hasn't worked out until now is because blogging really kinda sucks...
+Hi, I'm going to blog now. I have come to realize that the main reason it hasn't worked out until now is because blogging really kinda sucks.
 
 First, it's difficult to find the time to collect thoughts and form a decent post. It's really easy to stick a short blurb and a link on twitter, but that isn't really content. I intend to post content here... code tags, bar graphs, and other cool shit.
 

@@ -11,7 +11,7 @@ a {
   clear: both; }
 
 h1, h2, h3 {
-  color: #EF52AD;
+  color: #FF3399;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 22px;
   margin: 10px 0;
@@ -25,7 +25,8 @@ h1 {
   h1 a {
     color: #f3f3f3; }
 
-h2 a, h3 a { color: #EF52AD; }
+h2 a, h3 a { color: #FF3399; opacity: 0.8; }
+h2 a:hover { opacity: 1; }
 
 h2 span.date {
   display:none;
