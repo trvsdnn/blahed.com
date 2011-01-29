@@ -37,15 +37,19 @@ h2 span.date {
 
 h3 { font-size: 18px; }
 
+h4 {
+  font-size: 15px;
+  margin: 10px 0 5px 0; }
+
 p {
   font-size: 14px;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
   line-height: 24px;
   margin-bottom: 10px; }
 
-p a {
+p a, li a {
   border-bottom: 1px solid #333333; }
-p a:hover {
+p a:hover, li a:hover {
   border-bottom: 1px solid #EF52AD; }
 
 pre {
@@ -54,6 +58,15 @@ pre {
   border-left: 6px solid #333333;
   font-size: 13px;
   overflow: scroll; }
+
+ol { margin-bottom: 10px; }
+
+li {
+/*  color: #777;*/
+  margin-left: 15px;
+  font-size: 13px;
+  list-style-type: decimal;
+  list-style-position: inside; }
 
 #wrapper {
   width: 600px;

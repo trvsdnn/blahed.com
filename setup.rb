@@ -5,7 +5,7 @@
 # 'server' can be any Rack-supported server, e.g.
 #  Mongrel, Thin, WEBrick
 #
-Frank.server.handler = "mongrel"
+Frank.server.handler = "thin"
 Frank.server.hostname = "0.0.0.0"
 Frank.server.port = "3601"
 
