@@ -10,7 +10,7 @@ a {
 .clear {
   clear: both; }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #FF3399;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 22px;
@@ -35,11 +35,11 @@ h2 span.date {
   font-size: 15px;
   margin: 2px 0 10px 0; }
 
-h3 { font-size: 18px; }
+h3 { font-size: 18px; margin: 20px 0 5px 0;}
 
 h4 {
   font-size: 15px;
-  margin: 10px 0 5px 0; }
+  margin: 20px 0 5px 0; }
 
 p {
   font-size: 14px;
@@ -52,12 +52,21 @@ p a, li a {
 p a:hover, li a:hover {
   border-bottom: 1px solid #EF52AD; }
 
+code {
+  font-family: Monaco, Courier-New, monospace;
+  font-size: 12px;
+  border: 1px solid #ccc; }
+
 pre {
-  background: #090909;
-  border: 1px solid #333333;
-  border-left: 6px solid #333333;
-  font-size: 13px;
-  overflow: scroll; }
+  margin: 20px 0;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #aaa;
+  border-left: 6px solid #aaa;
+  overflow-y: hidden;
+  overflow-x: scroll; }
+
+pre code { border: none; }
 
 ol { margin-bottom: 10px; }
 
@@ -67,6 +76,15 @@ li {
   font-size: 13px;
   list-style-type: decimal;
   list-style-position: inside; }
+
+blockquote {
+  margin-left: 10px;
+  padding-left: 10px;
+  font-size: 11px;
+  font-style: italic;
+  border-left: 4px solid #eee; }
+
+cite { font-size: 11px; }
 
 #wrapper {
   width: 600px;
