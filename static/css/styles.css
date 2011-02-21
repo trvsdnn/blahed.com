@@ -52,6 +52,14 @@ p a, li a {
 p a:hover, li a:hover {
   border-bottom: 1px solid #EF52AD; }
 
+hr {
+  margin: 20px auto 20px auto;
+  border: none;
+  width: 90%;
+  color: #ccc;
+  background-color: #ccc;
+  height: 2px; }
+
 code {
   font-family: Monaco, Courier-New, monospace;
   font-size: 12px;
