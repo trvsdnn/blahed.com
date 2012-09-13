@@ -4,8 +4,7 @@ date: 12/7/2010
 
 -------------------------------------META
 
-Do What You Do
-------------------
+## Do What You Do
 
 It feels pretty rad to be a developer these days. We have things like [github](http://github.com), [exceptional](http://www.getexceptional.com/), and various app stores that let us get paid.
 

@@ -4,8 +4,7 @@ date: 1/27/2011
 
 -------------------------------------META
 
-New Years Resolutions (ain't shit)
-----------------------------------------------
+## New Years Resolutions (ain't shit)
 
 So it's a new year and everyone has been talking about resolutions. Personally, I'd rather rant about why resolutions are real stupid... So here goes.
 

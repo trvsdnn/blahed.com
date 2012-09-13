@@ -4,8 +4,7 @@ date: 10/29/2010
 
 -------------------------------------META
 
-Why Blogging Sucks
-------------------
+## Why Blogging Sucks
 
 Hi, I'm going to blog now. I have come to realize that the main reason it hasn't worked out until now is because blogging really kinda sucks.
 

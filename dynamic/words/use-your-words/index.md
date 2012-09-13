@@ -4,8 +4,7 @@ date: 2/17/2011
 
 -------------------------------------META
 
-Use Your Words
-----------------------------------------------
+## Use Your Words
 
 Had a brief conversation today with a few guys at the office. We talked a bit about Linux and BSD as desktop operating systems.
 
