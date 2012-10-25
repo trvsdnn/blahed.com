@@ -2,15 +2,34 @@
 <html>
   <head>
     <title>blahed<%= " - #{title}" if defined? title %></title>
-    <link href='/css/reset.css' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
-    <link href='/css/styles.css' rel='stylesheet' type='text/css' />
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+    <link href="/css/styles.css" rel='stylesheet' type="text/css" />
+    <script src="/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/js/y.es" type="text/ecmascript"></script>
   </head>
   <body>
-    <h1><a href='/'>blahed</a><a href='/asl' class='asl'><% if @current_path !~ /\/asl/ %>&iquest;<% end %></a></h1>
-
-    <div class='content'><%= yield %></div>
-
+    <div class="content">
+      <h1><a href="/">blahed</a><% if current_path !~ /\A\/kto\/?\z/ %><a href="/kto" class="kto">?</a><% end %></h1>
+      <% if current_path =~ /\A\/words/ %>
+        <div class="words"><%= yield %></div>
+      <% else %>
+        <%= yield %>
+      <% end %>
+    </div>
     <%= refresh %>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1406322-3']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   </body>
 </html>

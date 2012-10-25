@@ -1,12 +1,131 @@
-html { color: #aaa; background: #101010; }
+@font-face {
+    font-family: 'red_octoberregular';
+    src: url('/fonts/red_october-regular-webfont.eot');
+    src: url('/fonts/red_october-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/red_october-regular-webfont.woff') format('woff'),
+         url('/fonts/red_october-regular-webfont.ttf') format('truetype'),
+         url('/fonts/red_october-regular-webfont.svg#red_octoberregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-.content { width: 640px; margin: 120px auto; }
-.content .me { display: block; margin: 20px auto 40px auto; }
-.content p { font-size: 22px; line-height: 28px; font-family: Helvetica Neue, Arial, sans-serif; text-align: center; margin-bottom: 60px; }
+}
+@font-face {
+    font-family: 'molotregular';
+    src: url('/fonts/molot-webfont.eot');
+    src: url('/fonts/molot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/molot-webfont.woff') format('woff'),
+         url('/fonts/molot-webfont.ttf') format('truetype'),
+         url('/fonts/molot-webfont.svg#molotregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-.content p a { color: #666; text-decoration: none; font-family: Helvetica Neue, Arial, sans-serif; }
-.content p a:hover { border-bottom: 1px solid #E9E54C; }
+}
 
-h1 { margin: 120px 0 40px 0; font-size: 186px; text-align: center; font-family: 'Trade Winds', cursive;}
-h1 a { color: #E9E54C; text-decoration: none; }
-h1 a.asl { color: #333; }
+html {
+  background: #EBEBEB url(/images/border.gif) repeat-y;
+}
+
+body {
+  color: #676767;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.content { width: 700px; margin: 40px auto 120px auto; }
+
+a { color: #444; text-decoration: none; }
+a:hover { color: #C62100; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background : #E62100;
+  margin: 40px 90px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'molotregular', sans-serif;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+h1 a { color: #ccc; }
+h1 a:hover { color: #ccc; }
+h1 a.kto:hover { color: #C62100; }
+
+h2, h3 {
+  font-size: 18px;
+  font-family: 'red_octoberregular', sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 a { color: #E62100; }
+h2 a span { color: #ccc; display: none; }
+h2 a:hover span { display: inline; }
+
+h3 { margin-top: 40px; }
+
+p {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 15px 0;
+}
+
+p a { padding-bottom: 1px; }
+p a:hover { border-bottom: 1px solid #ddd; }
+
+blockquote {
+  margin: 0 30px;
+  padding: 5px 10px;
+  border-top: 1px solid #E62100;
+  border-bottom: 1px solid #E62100;
+}
+
+blockquote p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+pre, code {
+  font-size: 15px;
+  font-family: Menlo, Monaco, Lucida Console, monospace;
+}
+
+p code {
+  background: #f1f1f1;
+  padding: 0px 3px;
+}
+
+pre {
+  background: #f6f6f6;
+  overflow-x: auto;
+  line-height: 18px;
+  margin: 15px 30px;
+  padding: 5px 10px;
+}
+
+.post {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.post .date {
+  color: #ddd;
+  font-family: 'red_octoberregular', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: -70px;
+  height: 20px;
+  width: 60px;
+}
+
+.words img {
+  border: 2px solid #ccc;
+  display: block;
+  margin: 35px auto;
+  width: 600px;
+}
+
+.words .video { margin-bottom: 40px; }
