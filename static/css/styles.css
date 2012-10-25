@@ -129,3 +129,10 @@ pre {
 }
 
 .words .video { margin-bottom: 40px; }
+
+.error { text-align: center; }
+.error h1 {
+  color: #E62100;
+  font-family: 'red_octoberregular', sans-serif;
+  font-size: 72px;
+}
