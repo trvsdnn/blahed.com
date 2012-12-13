@@ -6,7 +6,7 @@ date: 12/12/2012
 
 ## [Market Share is Distracting](/words/market-share-is-distracting)
 
-The war of marketshare is a war that shouldn't exist when you're in the business of making good products. Marketshare doesn't mean you have a good product, just that a lot of people use your product.
+The war of market share is a war that shouldn't exist when you're in the business of making good products. Market share doesn't mean you have a good product, just that a lot of people use your product.
 
 A recent quote from Eric Schmidt struck me as odd and confusing.
 
